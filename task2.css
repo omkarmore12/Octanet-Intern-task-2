@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+}
+
+.task-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.task {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+}
+
+.task h2 {
+    margin-bottom: 10px;
+}
+
+.task p {
+    margin: 5px 0;
+}
